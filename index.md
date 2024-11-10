@@ -104,34 +104,7 @@ With this form the expert will join the community and start to receive challenge
 
 Copy:  
 
-```
-Unete a la comunidad de portfolio CTO para comenzar a recibir retos con los que ayudar a emprendedores a crear sus proyectos. Crea una red de contactos y enfrentate a retos que ponen a prueba y complementan tus habilidades. 
-
-Es muy fácil!
-
-(not definitive copy)
-```
-
-Form
-```
-[   Nombre   ] Input
-[   Apellidos   ] Input 
-[ perfil de LinkedIn ] Input 
-[   Teléfono.  ] Input (i) Si añades tu teléfono el emprendedor te podra contactar directamente, además en el futuro te podremos enviar challenges mediante sms o whatsapp. (No te preocupes te pediremos permiso nuevamente antes)
-
-[x] Quiero formar parte de la comunidad (i) legal note
-[ Contraseña ] Input Password 
-
-[ ] Quiero recibir informacion de otro tipo, eventos e informaciones de interes
-
-(i) al formar parte de la comunidad reconoces que blah blah .. (legal things)
-
-| Enviar |
-```
-
-```
-Al enviar esta formulario das por hecho que aceptas el envio exclusivamente de challenges a tu bandeja de email email. 
-```
+[[join_form]]
 
 All fields are mandatory except Telephone, also the password if checkbox `Quiero formar parte de la comunidad`
 ##### **First iteration** 
@@ -151,30 +124,7 @@ Match between third party and internal email has to be taken. By email Also doub
 
 Once the expert has join the community, besides thank him by sending an email, he will be redirected a page / showing a message where we again tell him that we are happy to have in the community
 
-Copy: 
-
-```
-Hola <name of expert>
-
-Gracias por apoyar esta comunidad! A partir de ahora cada vez que haya un Challenge seras notificado por email y podras ayudar si asi lo deseas.
-
-<dynamic part App WIP, see below >
-
-Un saludo del equipo de Expert Hero
-
-Para cualquier cosa no dudes en ponerte en contacto con nosotros en support@experthero.eus
-```
-
-##### dynamic App WIP
-
-If he has Sign Up the community we will let him know that we are working in an administration panel where he will be able to manage the open challenges and more.
-
-Copy 
-```
-En breve pondremos a tu disposición una aplicación donde podrás hacer seguimiento de todas las challenges lanzadados y tus aplicaciones. 
-
-Por ahora, estate atento ya los challenges te llegaran por email!
-```
+[[thankyou_page]]
 
 ### Expert Join a Challenge
 
@@ -182,36 +132,7 @@ Por ahora, estate atento ya los challenges te llegaran por email!
 
 Expert will join a challenge by receiving an email and with a description of the challenge
 
-###### Join the Challenge Email
-
-Subject: 
-
-```
-Nuevo Reto Disponible
-```
-
-Body: 
-```
-Hola <name of the expert>
-
-Tenemos otra solicitud para un mentor/asesor. Por favor, lee los detalles a continuación y, si estás dispuesto a ayudar, completa el formulario.
-
-|| Acepta el Reto ||
-
-Empresa / Emprendedor
-
-// blah blah (is comming from Challenge info)
-
-Descripcion del reto
-
-// blah blah (is comming from Challenge info)
-
-A quien estan buscando idealmente
-
-// blah blah (is comming from Challenge info)
-
-Acepta el Reto y ayuda a <name of the enterprenour> ! [ Link ]
-```
+[[join_challenge_email_form]]
 
 This challenge email will be sent as part of a Marketing Campaign with a third party marketing tool.
 

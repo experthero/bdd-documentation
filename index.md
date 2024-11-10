@@ -55,7 +55,7 @@ Additionally, both entrepreneurs and experts will have a tool (app) to view both
 # Projects
 
 Expert Hero can be split in 3 projects
-## experthero.com 
+## experthero.eus 
 
 landing page where the Project is explained and with two differentiated and ready to be filled forms: 
 
@@ -65,26 +65,26 @@ landing page where the Project is explained and with two differentiated and read
 Everything can be done without login / sign up BUT as later step we offer the possibility to create an user for later consultancy of challenges / applications / settings / account 
 
 (pending to discuss design! )
-## app.experthero.com
+## app.experthero.eus
 
 App where we will allow both Experts and Hero to check their info like which challenges a Hero posted or which applications sent an Expert
 
 All this will be discussed in a second iteration.
 
-By now it will be just a logo and an email support@experthero.com to contact for more info, change the password or so.
+By now it will be just a logo and an email support@experthero.eus to contact for more info, change the password or so.
 
-## shop.experthero.com
+## shop.experthero.eus
 
 A shop with useful items for Entrepreneurs and IT nerds
 
-## grants.experthero.com
+## grants.experthero.eus
 
 A tool for searching grants (subventions) that could fit the Hero needs. (not part of this iteration)
 
-## taxaid.experthero.com
+## taxaid.experthero.eus
 
 A tool for helping the Hero and the Expert to optimize taxes. (not part of this iteration)
-# Module ExpertHero.com
+# Module ExpertHero.eus
 
 - Expert Flow: 
 	- Expert Join Community Form / Sign Up
@@ -160,7 +160,7 @@ Gracias por apoyar esta comunidad! A partir de ahora cada vez que haya un Challe
 
 Un saludo del equipo de Expert Hero
 
-Para cualquier cosa no dudes en ponerte en contacto con nosotros en support@experthero.com
+Para cualquier cosa no dudes en ponerte en contacto con nosotros en support@experthero.eus
 ```
 
 ##### dynamic App WIP
@@ -217,7 +217,7 @@ The link will bring to a form where the Expert will be able to explain why he th
 
 ##### Second iteration
 
-As we will have already an Application (Module app.experthero.com), ideally the expert would be able to join also the challenge through the app.
+As we will have already an Application (Module app.experthero.eus), ideally the expert would be able to join also the challenge through the app.
 
 #### Join the Challenge Form
 
@@ -245,7 +245,7 @@ Por supuesto, puede ofrecer mucho trabajo de forma gratuita si lo desea, o puede
 | Enviar |
 
 
-Feedback a la organizacion. Siempre queremos mejorar por lo que si tienes algo que decirnos puedes escribirnos a support@experthero.com
+Feedback a la organizacion. Siempre queremos mejorar por lo que si tienes algo que decirnos puedes escribirnos a support@experthero.eus
 ```
 
 We assume we know already the firstName, lastName and email  of the Expert. We also know if he has join the community or not. 
@@ -266,7 +266,7 @@ Nuevamente, gracias por querere ayudar a <nombre de emprendedor> con <nombre del
 
 El acaba de recibir tu ofrecimiento y te responderá en breve si cree que puedes ser ayuda. 
 
-Para cualquier pregunta no dudes en contactarnos support@experthero.com
+Para cualquier pregunta no dudes en contactarnos support@experthero.eus
 ```
 ## Hero Flow: Post Challenge & Signup flow
 
@@ -322,11 +322,11 @@ Sign Up Can support third party authentication platforms (google / apple / etc..
 
 Match between third party and internal email has to be taken. By email Also double opt-in should be applied.
 
-# Module App.ExpertHero.com
+# Module App.ExpertHero.eus
 
 // pending
 
-# Module Shop.ExpertHero.com
+# Module Shop.ExpertHero.eus
 
 // pending
 # UX / UI
@@ -354,7 +354,8 @@ When Expert join the community add some info about himself and also a descriptio
 
 # Questions to Dev
 
-- Do you need design for the experthero.com ?
+- Do you need design for the experthero.eus ?
+- I'd like that experthero.es and others redirect to experthero.eus transparently. Possible?
 - Zoho Campaign Export pending to discussion
 - Admin tools by now will be to have access to the DB 
 - It would be great if texts can be tweaked without Dev help.

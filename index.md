@@ -97,13 +97,11 @@ A tool for helping the Hero and the Expert to optimize taxes. (not part of this 
 ### Expert Join Community Form / Sign Up
 
 With this form the expert will join the community and start to receive challenges.
-
-[[ExpertHero - Expert - Join Community & Login Flow]]
 #### Join Form & Optional Sign Up 
 
 Copy:  
 
-[expert_join_community_form](expert_join_community_form.md)
+[**expert_join_community_form**](expert_join_community_form.md)
 
 All fields are mandatory except Telephone, also the password if checkbox `Quiero formar parte de la comunidad`
 ##### **First iteration** 
@@ -131,7 +129,7 @@ Once the expert has join the community, besides thank him by sending an email, h
 
 Expert will join a challenge by receiving an email and with a description of the challenge
 
-[expert_join_challenge_email](expert_join_challenge_email.md)
+[expert_join_challenge_email](copies_and_forms/expert_join_challenge_email.md)
 
 This challenge email will be sent as part of a Marketing Campaign with a third party marketing tool.
 
@@ -145,17 +143,16 @@ As we will have already an Application (Module app.experthero.eus), ideally the 
 
 As discussed above, once the expert receives the email with the challenge details, he has the opportunity to join the challenge and help the entrepreneur. 
 
-[expert_join_challenge_form](expert_join_challenge_form.md)
+[expert_join_challenge_form](copies_and_forms/expert_join_challenge_form.md)
 ## Hero Flow: Post Challenge & Signup flow
 
-[[ExpertHero - Hero - Post Challenge & Sign Up Flow]]
 ### Post a Challenge Form
 
 As discussed previously the entrepreneur can use a form to post a challenge
 
 with the following fields
 
-[hero_post_challenge_form](hero_post_challenge_form.md)
+[hero_post_challenge_form](copies_and_forms/hero_post_challenge_form.md)
 
 ### First iteration 
 

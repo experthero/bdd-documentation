@@ -18,6 +18,8 @@ the simplest way to understand the flow is like so:
 - Expert receives an Email and apply to the Challenge
 - Hero receives an Email with application + Expert contact data, and eventually contacts him (out of the scope of this application)
 
+![[experthero-flow.png]]
+
 ### Entrepreneur (Hero) part
 
 First and more important, it consists of a form with different fields where the entrepreneur proposes the challenge, project, or consultancy they need.

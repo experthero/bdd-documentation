@@ -99,12 +99,11 @@ A tool for helping the Hero and the Expert to optimize taxes. (not part of this 
 With this form the expert will join the community and start to receive challenges.
 
 [[ExpertHero - Expert - Join Community & Login Flow]]
-
 #### Join Form & Optional Sign Up 
 
 Copy:  
 
-[[join_form]]
+[expert_join_community_form](expert_join_community_form.md)
 
 All fields are mandatory except Telephone, also the password if checkbox `Quiero formar parte de la comunidad`
 ##### **First iteration** 
@@ -124,7 +123,7 @@ Match between third party and internal email has to be taken. By email Also doub
 
 Once the expert has join the community, besides thank him by sending an email, he will be redirected a page / showing a message where we again tell him that we are happy to have in the community
 
-[[thankyou_page]]
+[expert_thankyou_page](expert_thankyou_page.md)
 
 ### Expert Join a Challenge
 
@@ -132,7 +131,7 @@ Once the expert has join the community, besides thank him by sending an email, h
 
 Expert will join a challenge by receiving an email and with a description of the challenge
 
-[[join_challenge_email_form]]
+[expert_join_challenge_email](expert_join_challenge_email.md)
 
 This challenge email will be sent as part of a Marketing Campaign with a third party marketing tool.
 
@@ -146,51 +145,7 @@ As we will have already an Application (Module app.experthero.eus), ideally the 
 
 As discussed above, once the expert receives the email with the challenge details, he has the opportunity to join the challenge and help the entrepreneur. 
 
-```
-Hola <nombre del experto>
-
-Gracias por ofrecerte a ayudar a <nombre del Emprendedor> con su reto <nombre del reto>
-
-En que area podrias ayudar
-[     ] Text Area
-
-Escribe tu mensaje al Emprendedor
-[     ] Text Area
-
-[x] Confirmación *
-
-* Marca la casilla para confirmar que estas dispuesto a ofrecer al menos una hora de ayuda y asesoramiento gratuitos a este emprendedor.
-
-Por supuesto, puede ofrecer mucho trabajo de forma gratuita si lo desea, o puedes ofrecer solo una hora y comunicarle al fundador tus honorarios por si desea contratarte más.
-
-<dynamic Join the community, see below>
-
-| Enviar |
-
-
-Feedback a la organizacion. Siempre queremos mejorar por lo que si tienes algo que decirnos puedes escribirnos a support@experthero.eus
-```
-
-We assume we know already the firstName, lastName and email  of the Expert. We also know if he has join the community or not. 
-
-Therefore if he still has not join the community we will ask him kindly to do so:
-
-```
-[x] Quiero formar parte de la comunidad (i) legal note
-[ Contraseña ] Input Password 
-```
-
-In any case after filling the form we will redirect him to a thank you page / show a message: 
-
-```
-Petición de ayuda enviada! 
-
-Nuevamente, gracias por querere ayudar a <nombre de emprendedor> con <nombre del reto>
-
-El acaba de recibir tu ofrecimiento y te responderá en breve si cree que puedes ser ayuda. 
-
-Para cualquier pregunta no dudes en contactarnos support@experthero.eus
-```
+[expert_join_challenge_form](expert_join_challenge_form.md)
 ## Hero Flow: Post Challenge & Signup flow
 
 [[ExpertHero - Hero - Post Challenge & Sign Up Flow]]
@@ -200,37 +155,7 @@ As discussed previously the entrepreneur can use a form to post a challenge
 
 with the following fields
 
-```
-
-Hola!
-
-Gracias por utilizar ExpertHero para buscar expertos con los que hacer que tus ideas se hagan realidad. 
-
-Por favor, rellena este formulario y nos pondremos en contacto con aquellos expertos que puedan ayudarte comunicandotelo por email con la mayor brevedad posible.
-
-[ Nombre] Input
-[ Apellidos] Input
-[ Compañia ] Input
-[ perfil de LinkedIn ] Input 
-[ Email ] Input
-[ Telephone ] Input (i) Si añades tu teléfono en el futuro te podremos enviar challenges mediante sms o whatsapp. (No te preocupes te pediremos permiso nuevamente antes)
-
-[x] Quiero formar parte de la comunidad  (i) legal note
-[ Contraseña ] Input field Password
-
-Explicanos tu Proyecto:
-
-[ Descripción del tu empresa ] Text Area
-[ Titulo del reto ] Input
-[ Descripción del reto ] Text Area
-[ Descripción del candidato ideal ] Text Area
-
-| Enviar |
-
-Para cualquier duda o pregunta puedes enviarnos un email a support@experthero.com
-
-(i) al formar parte de la comunidad reconoces que blah blah .. (legal things)
-```
+[hero_post_challenge_form](hero_post_challenge_form.md)
 
 ### First iteration 
 
@@ -245,13 +170,21 @@ Sign Up Can support third party authentication platforms (google / apple / etc..
 
 Match between third party and internal email has to be taken. By email Also double opt-in should be applied.
 
-# Module App.ExpertHero.eus
+## Thank You Page
 
-// pending
+similarly to the Expert, once the form has been filled up a new page / message / redirection will thank the entrepreneur for sending the challenge
 
-# Module Shop.ExpertHero.eus
+[hero_thankyou_page](copies_and_forms/hero_thankyou_page)
+# Module app.ExpertHero.eus
 
-// pending
+// next iteration
+
+# Module shop.ExpertHero.eus
+
+- Payment Gateway
+- Shop technology
+- Better 
+- Where to host it
 # UX / UI
 
 Everything must be available in Euskadi two official languages: Basque and Spanish.
@@ -261,6 +194,10 @@ We build a Web App but UX is the priority, it has to be great both in Mobil and 
 This is the top priority.
 
 This tool is intended to support the Basque ecosystem and minority communities, giving priority to entrepreneurs/experts who are Basque or from marginalized groups, such as women or LGBTQ+ individuals.
+
+## Palette and colors
+
+pending but it will be very related to the Euskadi flag colors: red, green and white
 
 # Technology Stack
 

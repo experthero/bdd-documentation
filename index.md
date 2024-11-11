@@ -211,8 +211,20 @@ When Expert join the community add some info about himself and also a descriptio
 
 # Questions to Dev
 
+- Split landing page from app or App includes Landing Page (pros and cons)
 - Do you need design for the experthero.eus ?
 - I'd like that experthero.es and others redirect to experthero.eus transparently. Possible?
 - Zoho Campaign Export pending to discussion
 - Admin tools by now will be to have access to the DB 
 - It would be great if texts can be tweaked without Dev help.
+- Time / effort estimation. experthero.eus flow + configure a shop. in the 7.5€K buget?
+
+## Tasks
+
+- Hero - Post a Challenge Form (as part of the App)
+- Expert - Join Community Form (as part of the App)
+- Expert - Join Challenge Form (as part of the App)
+- Landing Page (if it is included in the App)
+- Zoho Campaigns exports (Challenge & related Experts)
+- Transactional Email API connections & Templates
+- eCommerce Shop

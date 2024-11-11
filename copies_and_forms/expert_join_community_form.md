@@ -9,7 +9,7 @@ Es muy fácil!
 
 (not definitive copy)
 ```
-
+![[copies.png]]
 Form:
 
 ```

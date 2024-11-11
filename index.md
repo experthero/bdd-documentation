@@ -18,7 +18,7 @@ the simplest way to understand the flow is like so:
 - Expert receives an Email and apply to the Challenge
 - Hero receives an Email with application + Expert contact data, and eventually contacts him (out of the scope of this application)
 
-![[experthero-flow.png]]
+[experthero-flow-figure](imgs/experthero-flow.png)
 
 ### Entrepreneur (Hero) part
 
@@ -194,8 +194,7 @@ This is the top priority.
 
 This tool is intended to support the Basque ecosystem and minority communities, giving priority to entrepreneurs/experts who are Basque or from marginalized groups, such as women or LGBTQ+ individuals.
 
-
-![[copies.png]]
+[copies_and_sections](imgs/copies)
 ## Palette and colors
 
 pending but it will be very related to the Euskadi flag colors: red, green and white

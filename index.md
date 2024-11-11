@@ -194,7 +194,7 @@ This is the top priority.
 
 This tool is intended to support the Basque ecosystem and minority communities, giving priority to entrepreneurs/experts who are Basque or from marginalized groups, such as women or LGBTQ+ individuals.
 
-[copies_and_sections](imgs/copies)
+[copies_and_sections](imgs/copies.png)
 ## Palette and colors
 
 pending but it will be very related to the Euskadi flag colors: red, green and white

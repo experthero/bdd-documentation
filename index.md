@@ -59,17 +59,19 @@ Additionally, both entrepreneurs and experts will have a tool (app) to view both
 Expert Hero can be split in 3 projects
 ## experthero.eus 
 
-landing page where the Project is explained and with two differentiated and ready to be filled forms: 
+landing page where the Project is explained.
+
+(pending to discuss design! )
+## app.experthero.eus
+
+ By now it has two differentiated and ready to be filled forms: 
 
 - Form to join the community as an expert
 - Form to propose a challenge as a hero
 
 Everything can be done without login / sign up BUT as later step we offer the possibility to create an user for later consultancy of challenges / applications / settings / account 
 
-(pending to discuss design! )
-## app.experthero.eus
-
-App where we will allow both Experts and Hero to check their info like which challenges a Hero posted or which applications sent an Expert
+In a second stage, the "app.experthero.eus" will allow both Experts and Hero to check their info like which challenges a Hero posted or which applications sent an Expert.
 
 All this will be discussed in a second iteration.
 

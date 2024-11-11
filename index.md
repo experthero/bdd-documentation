@@ -90,6 +90,10 @@ A tool for searching grants (subventions) that could fit the Hero needs. (not pa
 A tool for helping the Hero and the Expert to optimize taxes. (not part of this iteration)
 # Module ExpertHero.eus
 
+// landing page 
+
+# Module App.expertHero.eus
+
 - Expert Flow: 
 	- Expert Join Community Form / Sign Up
 	- Expert Join a Challenge
@@ -174,9 +178,10 @@ Match between third party and internal email has to be taken. By email Also doub
 similarly to the Expert, once the form has been filled up a new page / message / redirection will thank the entrepreneur for sending the challenge
 
 [hero_thankyou_page](copies_and_forms/hero_thankyou_page)
-# Module app.ExpertHero.eus
 
-// next iteration
+## App
+
+The app having access to challenges / experts / applications etc.. will be discussed in the next iteration.
 
 # Module shop.ExpertHero.eus
 

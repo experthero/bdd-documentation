@@ -239,7 +239,8 @@ When Expert join the community add some info about himself and also a descriptio
 - Zoho Campaign config - Vicens
 - Transactional Email API connections & Templates (Vicens & Andreu)
 - eCommerce Shop  - Wordpress x Woocommerce
-- Disseny (Euskera!)
+- Design (Euskera!) 
+- Two languages (Spanish / Euskera)
 
 ## Reunion Andreu 2024-11-15
 

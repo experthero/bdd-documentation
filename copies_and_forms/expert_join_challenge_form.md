@@ -22,6 +22,13 @@ Por supuesto, puede ofrecer mucho trabajo de forma gratuita si lo desea, o puede
 
 | Enviar |
 
+Estos son los datos que tenemos sobre ti: 
+
+Nombre: <Name Expert> (not changeable)
+LastName <lastName Expert> (not changeable)
+Linkedin: <Linkedin Expert> (not changeable)
+
+Si no eres esta persona. Clicka <aqui> Para formar parte de la comunidad o envianos un email a soport@experthero.eus y mirarmos tu caso en particular.
 
 Feedback a la organizacion. Siempre queremos mejorar por lo que si tienes algo que decirnos puedes escribirnos a support@experthero.eus
 ```

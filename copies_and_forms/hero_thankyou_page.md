@@ -5,7 +5,11 @@ Copy:
 ```
 Hola <name of hero>
 
-Gracias por apoyar esta comunidad y compartir tu reto! Ya lo hemos compartido con nuestra comunidad de expertos y pronto se pondrán en contacto contigo por email
+Gracias por apoyar esta comunidad y compartir tu reto! 
+
+Por favor, si no lo has hecho ya valida tu email para que el reto este activo. 
+
+Si este paso esta completo, no hace que hagas nada, el reto será compartido con nuestra comunidad de expertos y pronto se pondrán en contacto contigo por email
 
 <dynamic part App WIP, see below >
 

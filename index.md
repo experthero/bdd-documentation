@@ -234,7 +234,21 @@ When Expert join the community add some info about himself and also a descriptio
 - Hero - Post a Challenge Form (as part of the App)
 - Expert - Join Community Form (as part of the App)
 - Expert - Join Challenge Form (as part of the App)
-- Landing Page (if it is included in the App)
-- Zoho Campaigns exports (Challenge & related Experts)
-- Transactional Email API connections & Templates
-- eCommerce Shop
+- Landing Page (if it is included in the App) - Vicens
+- Zoho Campaigns exports (Challenge & related Experts) 
+- Zoho Campaign config - Vicens
+- Transactional Email API connections & Templates (Vicens & Andreu)
+- eCommerce Shop  - Wordpress x Woocommerce
+- Disseny (Euskera!)
+
+## Reunion Andreu 2024-11-15
+
+- Validation Screens
+- Challenge not active until Hero email is not validated
+- Agree Zoho Campaigns export format
+- Study: Relaunch the Challenge (not to retrieve the expert that already applied)
+- Form: join challenge and join community for other experts
+- Email: hero_email_challenge_applied 
+- Plataform? nextjs / astroJs... 
+- Estimation? Start Date? Effort?
+- Next Meeting: Wend! 

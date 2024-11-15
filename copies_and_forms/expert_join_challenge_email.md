@@ -29,4 +29,7 @@ A quien estan buscando idealmente
 // blah blah (is comming from Challenge info)
 
 Acepta el Reto y ayuda a <name of the enterprenour> ! [ Link ]
+
+Este link es personal, si quieres compartirlo con otro experto pasale este <link> donde podra aplicar al reto y ademas unirse a la comunidad.
+
 ```

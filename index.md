@@ -75,7 +75,7 @@ In a second stage, the "app.experthero.eus" will allow both Experts and Hero to 
 
 All this will be discussed in a second iteration.
 
-By now it will be just a logo and an email support@experthero.eus to contact for more info, change the password or so.
+By now it will be just a logo and an email kaixo@experthero.eus to contact for more info, change the password or so.
 
 ## shop.experthero.eus
 

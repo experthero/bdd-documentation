@@ -127,7 +127,7 @@ Match between third party and internal email has to be taken. By email Also doub
 
 Once the expert has join the community, besides thank him by sending an email, he will be redirected a page / showing a message where we again tell him that we are happy to have in the community
 
-[expert_thankyou_page](expert_thankyou_page.md)
+[expert_thankyou_page](copies_and_forms/expert_thankyou_page.md)
 
 ### Expert Join a Challenge
 

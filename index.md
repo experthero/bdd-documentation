@@ -107,7 +107,7 @@ With this form the expert will join the community and start to receive challenge
 
 Copy:  
 
-[**expert_join_community_form**](expert_join_community_form.md)
+[**expert_join_community_form**](copies_and_forms/expert_join_community_form.md)
 
 All fields are mandatory except Telephone, also the password if checkbox `Quiero formar parte de la comunidad`
 ##### **First iteration** 

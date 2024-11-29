@@ -183,6 +183,27 @@ similarly to the Expert, once the form has been filled up a new page / message /
 
 The app having access to challenges / experts / applications etc.. will be discussed in the next iteration.
 
+## Challenge Export
+
+Each time a challenge is posted an email to all experts have to be sent. 
+
+By now it will be done manually by exporting the data from the DataBase (via SQL or API call)
+
+Given a challenge for each expert willing to join the challenge I'g get a row with the following columns (we can talk about the naming):
+
+```
+expert_name
+expert_email
+challenge_title
+challenge_hero_name
+challenge_hero_linkedin
+challenge_company_description
+challenge_expert_description
+challenge_cta
+```
+
+This CSV will be loaded in a MK Email tool with a template and sent as MK campaign
+
 # Module shop.ExpertHero.eus
 
 - Payment Gateway
@@ -208,7 +229,7 @@ pending to select a Template
 
 # Technology Stack
 
-- React SSR & NextJS
+- NextJS
 - i18n? 
 - Authentication? (https://nextjs.org/docs/pages/building-your-application/authentication) use a "free" auth library. Let's discuss it.
 - Zoho Campaigns for sending bulk emails (Challenges to the expert)
@@ -219,15 +240,9 @@ pending to select a Template
 
 When Expert join the community add some info about himself and also a description and the Linked-in and so on, therefore when the challenge is set it is filtered based in AI decisions.
 
-# Questions to Dev
+# Questions open to Dev
 
-- Split landing page from app or App includes Landing Page (pros and cons)
-- Do you need design for the experthero.eus ?
 - I'd like that experthero.es and others redirect to experthero.eus transparently. Possible?
-- Zoho Campaign Export pending to discussion
-- Admin tools by now will be to have access to the DB 
-- It would be great if texts can be tweaked without Dev help.
-- Time / effort estimation. experthero.eus flow + configure a shop. in the 7.5€K buget?
 
 ## Tasks
 

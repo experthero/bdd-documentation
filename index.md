@@ -242,14 +242,4 @@ When Expert join the community add some info about himself and also a descriptio
 - Design (Euskera!) 
 - Two languages (Spanish / Euskera)
 
-## Reunion Andreu 2024-11-15
 
-- Validation Screens
-- Challenge not active until Hero email is not validated
-- Agree Zoho Campaigns export format
-- Study: Relaunch the Challenge (not to retrieve the expert that already applied)
-- Form: join challenge and join community for other experts
-- Email: hero_email_challenge_applied 
-- Plataform? nextjs / astroJs... 
-- Estimation? Start Date? Effort?
-- Next Meeting: Wend! 

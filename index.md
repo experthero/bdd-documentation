@@ -18,7 +18,7 @@ the simplest way to understand the flow is like so:
 - Expert receives an Email and apply to the Challenge
 - Hero receives an Email with application + Expert contact data, and eventually contacts him (out of the scope of this application)
 
-[experthero-flow-figure](imgs/experthero-flow.png)
+[experthero-flow-figure](imgs/experthero-flow2.png)
 
 ### Entrepreneur (Hero) part
 
@@ -107,27 +107,29 @@ With this form the expert will join the community and start to receive challenge
 
 Copy:  
 
-[**expert_join_community_form**](copies_and_forms/expert_join_community_form.md)
+[**expert_join_community_form**](copies_and_forms/copies_and_forms/expert_join_community_form.md)
 
 All fields are mandatory except Telephone, also the password if checkbox `Quiero formar parte de la comunidad`
-##### **First iteration** 
 
 Email / password sign up. Sign up experience have to be super smooth and very nice mobil friendly. **UX has to be great. It is the priority.**
 
 **By email Also double opt-in should be applied.**
 
+Emails have to be sent in Basque or Spanish depending the Language user filled the form.
+
 Check third party tooling. At best all logic / email opt in / receive MK / etc should be outsourced. (Think in Options!)
-##### **Second iteration**
 
-Sign Up Can support third party authentication platforms (google / apple / etc..) besides the name / email / password login 
+If the Expert uses different emails each time he will be handle as different user. 
 
-Match between third party and internal email has to be taken. By email Also double opt-in should be applied.
+if the Expert uses the same email we tell him that he already exist in our database and se invite him to contact kaixo@experthero.eus 
+
+We invite him to login in to retrieve his personal data and again if he does not remember the password he can send an email to kaixo@experthero.eus
 
 #### Thank You Page
 
 Once the expert has join the community, besides thank him by sending an email, he will be redirected a page / showing a message where we again tell him that we are happy to have in the community
 
-[expert_thankyou_page](copies_and_forms/expert_thankyou_page.md)
+[expert_thankyou_page](copies_and_forms/copies_and_forms/expert_thankyou_page.md)
 
 ### Expert Join a Challenge
 
@@ -164,27 +166,23 @@ with the following fields
 
 When a Challenge is posted the "ADMIN" (me) should get an email informing a new challenge have been posted. 
 
-Email to send to kaixo@experthero.eus
+Email to send to kaixo@experthero.eus 
 
-Subject: "New Challenge Posted"
-
-Body: 
-
-The data from the hero_post_challenge_form
-eventually the ids / API call or the SQL to perform the campaign export (let's discuss it)
-
-### First iteration 
+email to receive as an admin [admin_hero_posted_a_challenge_email](copies_and_forms/admin_hero_posted_a_challenge_email.md)
 
 Email / password sign up. Sign up experience have to be super smooth and very nice mobil friendly. **UX has to be great. It is the priority.**
 
 **By email Also double opt-in should be applied.** (Validate Email)
 
 Check third party tooling. At best all logic / email opt in / receive MK / etc should be outsourced.
-### Second iteration
 
-Sign Up Can support third party authentication platforms (google / apple / etc..) besides the name / email / password login 
+If the Hero uses different emails each time he will be handle as different user 
 
-Match between third party and internal email has to be taken. By email Also double opt-in should be applied.
+if the Hero uses the same email we will tell him we allow to do so, overwritten the data. 
+
+We allow the Hero to log in, (if he did it) with his password to retrieve and autocomplete some of the fields
+
+If he does not remember the password we say in the form to contact kaixo@experthero.eus
 
 ## Thank You Page
 
@@ -215,8 +213,21 @@ challenge_expert_description
 challenge_cta
 ```
 
-This CSV will be loaded in a MK Email tool with a template and sent as MK campaign
+This CSV will be loaded in a MK Email tool with a template and sent as MK campaign.
 
+There will be 2 CSV one for each language the email campaign have to be sent
+
+## Expert Joins the Challenge
+
+Once the email bulk with the challenge have been done, the experts will receive the challenge and in that moment they will have a link to accept the challenge. As we have discussed above with [expert_join_challenge_form](copies_and_forms/expert_join_challenge_form.md)
+
+And in this moment the Hero will receive an email on his side telling him he has an Expert interested to help 
+
+The email body will be [hero_expert_accepted_challenge_email](copies_and_forms/expert_join_challenge_form.md)
+
+Of course a Hero can receive more than one Email / Expert interested. The Hero will decide on his own who to choose.
+
+Emails he receive are in the language the Hero post the challenge. It can be changed by sending an email to kaixo@experthero.eus
 # Module shop.ExpertHero.eus
 
 - Payment Gateway

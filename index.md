@@ -111,6 +111,8 @@ Copy:
 
 All fields are mandatory except Telephone, also the password if checkbox `Quiero formar parte de la comunidad`
 
+there is a captcha or similar to avoid bots.
+
 Email / password sign up. Sign up experience have to be super smooth and very nice mobil friendly. **UX has to be great. It is the priority.**
 
 **By email Also double opt-in should be applied.**
@@ -139,6 +141,8 @@ Expert will join a challenge by receiving an email and with a description of the
 
 [expert_join_challenge_email](copies_and_forms/expert_join_challenge_email.md)
 
+there is a captcha or similar to avoid bots
+
 This challenge email will be sent as part of a Marketing Campaign with a third party marketing tool.
 
 The link will bring to a form where the Expert will be able to explain why he thinks he is a good candidate to help the Entrepreneur with this challenge.
@@ -152,6 +156,8 @@ As we will have already an Application (Module app.experthero.eus), ideally the 
 As discussed above, once the expert receives the email with the challenge details, he has the opportunity to join the challenge and help the entrepreneur. 
 
 [expert_join_challenge_form](copies_and_forms/expert_join_challenge_form.md)
+
+there is a captcha or similar to avoid bots
 ## Hero Flow: Post Challenge & Signup flow
 
 ### Post a Challenge Form

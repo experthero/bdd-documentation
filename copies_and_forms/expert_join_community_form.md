@@ -18,7 +18,9 @@ Form:
 [ Email ] Input Email
 [   Teléfono.  ] Input (i) Si añades tu teléfono el emprendedor te podra contactar directamente, además en el futuro te podremos enviar challenges mediante sms o whatsapp. (No te preocupes te pediremos permiso nuevamente antes)
 [ perfil de LinkedIn ] Input 
+[ Expertise ] Dropdown 
 [ Descripcion ] Input (optional)
+
 
 [x] Quiero formar parte de la comunidad (i) legal note
 [ Contraseña ] Input Password 

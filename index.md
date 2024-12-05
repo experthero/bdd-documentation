@@ -113,6 +113,10 @@ All fields are mandatory except Telephone, also the password if checkbox `Quiero
 
 there is a captcha or similar to avoid bots.
 
+Type of expert: (dropdown)
+
+Technology, revenue, marketing
+
 Email / password sign up. Sign up experience have to be super smooth and very nice mobil friendly. **UX has to be great. It is the priority.**
 
 **By email Also double opt-in should be applied.**
@@ -169,6 +173,12 @@ with the following fields
 [hero_post_challenge_form](copies_and_forms/hero_post_challenge_form.md)
 
 > take in account that the Hero can post more than one Challenge and we should somehow don't duplicate the "sign ups" we do (Email is the primary) key.
+
+
+Type of challenge: (dropdown)
+
+Technology, revenue, marketing
+
 
 When a Challenge is posted the "ADMIN" (me) should get an email informing a new challenge have been posted. 
 
@@ -265,6 +275,19 @@ pending to select a Template
 - Zoho Campaigns for sending bulk emails (Challenges to the expert)
 - Zoho ZeptoEmail for transactional email
 - Google Analytics for tracking. 
+
+# Tech & More requirements
+
+## Tech stack
+
+NextJS, ORM (??), Typescript, AWS Cloud, Kubernetes, Postgress
+
+## Cookies
+
+We need cookies support: 
+
+https://www.npmjs.com/package/vanilla-cookieconsent
+https://www.termsfeed.com/
 
 # Future (add AI support)
 

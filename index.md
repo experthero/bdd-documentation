@@ -174,7 +174,6 @@ with the following fields
 
 > take in account that the Hero can post more than one Challenge and we should somehow don't duplicate the "sign ups" we do (Email is the primary) key.
 
-
 Type of challenge: (dropdown)
 
 Technology, revenue, marketing

@@ -133,9 +133,22 @@ We invite him to login in to retrieve his personal data and again if he does not
 
 #### Thank You Page
 
-Once the expert has join the community, besides thank him by sending an email, he will be redirected a page / showing a message where we again tell him that we are happy to have in the community
+Once the expert has join the community he will be redirected a page / showing a message where we again tell him that we are happy to have in the community
 
 [expert_thankyou_page](copies_and_forms/copies_and_forms/expert_thankyou_page.md)
+
+#### Verify Email
+
+The expert will receive an email for validating the email. Once he clicks he will be redirected to a page that thanks him do doing it
+
+```bash
+¡Tu correo electrónico ha sido verificado con éxito! 🎉
+
+Gracias por confirmar tu dirección de correo electrónico.
+Tan pronto como haya un reto que se adapte a tus necesidades nos pondremos en contacto.
+
+<button go home>
+```
 
 ### Expert Join a Challenge
 
@@ -162,6 +175,7 @@ As discussed above, once the expert receives the email with the challenge detail
 [expert_join_challenge_form](copies_and_forms/expert_join_challenge_form.md)
 
 there is a captcha or similar to avoid bots
+
 ## Hero Flow: Post Challenge & Signup flow
 
 ### Post a Challenge Form
@@ -199,11 +213,25 @@ We allow the Hero to log in, (if he did it) with his password to retrieve and au
 
 If he does not remember the password we say in the form to contact kaixo@experthero.eus
 
-## Thank You Page
+### Thank You Page
 
 similarly to the Expert, once the form has been filled up a new page / message / redirection will thank the entrepreneur for sending the challenge
 
 [hero_thankyou_page](copies_and_forms/hero_thankyou_page)
+
+### Verify Email Hero
+
+The expert will receive an email for validating the email. Once he clicks he will be redirected to a page that thanks him do doing it
+
+```bash
+¡Tu correo electrónico ha sido verificado con éxito! 🎉
+
+Gracias por confirmar tu dirección de correo electrónico. 
+
+Estamos revisando el reto para evitar un mal uso de la herramienta. En breve, el reto será compartido con los expertos que mejor se adapten a tus necesidades.
+
+<button go experthero.eus>
+```
 
 ## App
 

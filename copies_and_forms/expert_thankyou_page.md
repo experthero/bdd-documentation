@@ -5,13 +5,13 @@ Copy:
 ```
 Hola <name of expert>
 
-Gracias por apoyar esta comunidad! A partir de ahora cada vez que haya un Challenge seras notificado por email y podras ayudar si asi lo deseas.
+Gracias por apoyar esta comunidad. A partir de ahora, cada vez que haya un Challenge, serás notificado por email y podrás ayudar si así lo deseas.
 
 <dynamic part App WIP, see below >
 
 Un saludo del equipo de Expert Hero
 
-Para cualquier cosa no dudes en ponerte en contacto con nosotros en support@experthero.eus
+Para cualquier cosa no dudes en ponerte en contacto con nosotros en kaixo@experthero.eus
 ```
 
 ##### dynamic App WIP

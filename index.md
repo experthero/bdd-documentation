@@ -115,7 +115,7 @@ there is a captcha or similar to avoid bots.
 
 Type of expert: (dropdown)
 
-Technology, revenue, marketing
+Technology, strategy, marketing
 
 Email / password sign up. Sign up experience have to be super smooth and very nice mobil friendly. **UX has to be great. It is the priority.**
 
@@ -190,7 +190,7 @@ with the following fields
 
 Type of challenge: (dropdown)
 
-Technology, revenue, marketing
+Technology, strategy, marketing
 
 
 When a Challenge is posted the "ADMIN" (me) should get an email informing a new challenge have been posted. 

@@ -5,17 +5,17 @@ Copy:
 ```
 Hola <name of hero>
 
-Gracias por apoyar esta comunidad y compartir tu reto! 
+Gracias por apoyar esta comunidad y compartir tu reto.
 
-Por favor, si no lo has hecho ya valida tu email para que el reto este activo. 
+Por favor, si no lo has hecho ya, **valida tu email** para que el reto esté activo.
 
-Si este paso esta completo, no hace que hagas nada, el reto será compartido con nuestra comunidad de expertos y pronto se pondrán en contacto contigo por email
+Si este paso ya está completo, **no hace falta que hagas nada más**. El reto será compartido con nuestra comunidad de expertos y pronto se pondrán en contacto contigo por email.
 
-<dynamic part App WIP, see below >
+<Dynamic part App WIP, see below>
 
-Un saludo del equipo de Expert Hero
+Un saludo del equipo de **ExpertHero**
 
-Para cualquier cosa no dudes en ponerte en contacto con nosotros en support@experthero.eus
+Para cualquier consulta, no dudes en ponerte en contacto con nosotros en kaixo@experthero.eus
 ```
 
 ##### dynamic App WIP

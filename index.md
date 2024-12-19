@@ -107,7 +107,7 @@ With this form the expert will join the community and start to receive challenge
 
 Copy:  
 
-[**expert_join_community_form**](copies_and_forms/copies_and_forms/expert_join_community_form.md)
+[**expert_join_community_form**](copies_and_forms/expert_join_community_form.md)
 
 All fields are mandatory except Telephone, also the password if checkbox `Quiero formar parte de la comunidad`
 
@@ -158,15 +158,11 @@ Expert will join a challenge by receiving an email and with a description of the
 
 [expert_join_challenge_email](copies_and_forms/expert_join_challenge_email.md)
 
-there is a captcha or similar to avoid bots. It will be enabled but a env variable. Default value "inactive", if not present it will be also inactive
-
 This challenge email will be sent as part of a Marketing Campaign with a third party marketing tool.
 
+In the email there is a link to a Form .
+
 The link will bring to a form where the Expert will be able to explain why he thinks he is a good candidate to help the Entrepreneur with this challenge.
-
-##### Second iteration
-
-As we will have already an Application (Module app.experthero.eus), ideally the expert would be able to join also the challenge through the app.
 
 #### Join the Challenge Form
 
@@ -174,7 +170,65 @@ As discussed above, once the expert receives the email with the challenge detail
 
 [expert_join_challenge_form](copies_and_forms/expert_join_challenge_form.md)
 
-there is a captcha or similar to avoid bots
+there is a captcha or similar to avoid bots. It will be enabled but a env variable. Default value "inactive", if not present it will be also inactive
+
+IMPORTANT: Once the Expert Join a Challenge, 2 emails will be sent: 
+
+- One email to the Hero sending him the info of the expert
+- One email to the ADMIN, letting him know an expert is willing to help
+##### thank you page
+
+Once Form is completed a `thankyou` page will be shown with the following text: 
+
+```
+Hola <name of expert>
+
+Gracias por aceptar esta challenge. El Hero será inmediaamente notificado por email y se pondrá en contacto contigo si cree que puedes ser de ayuda.
+
+Un saludo del equipo de Expert Hero
+
+Para cualquier cosa no dudes en ponerte en contacto con nosotros en kaixo@experthero.eus
+```
+
+
+##### Email to Expert
+
+[hero_expert_accepted_challenge_email](copies_and_forms/hero_expert_accepted_challenge_email.md)
+##### Email to Admin
+
+As stated above the admin will also receive an email to let him know there is a match
+
+```
+Subject: ExpertHero: There is a match!
+
+Body: 
+
+Hero
+
+[Hero Name]
+[Hero Surname]
+[Hero Company]
+[Hero Linkedin]
+[Hero email]
+[Hero Telephone]
+
+[ Descripción del tu empresa ]ea
+[ Titulo del reto ] 
+[ Descripción del reto ]
+[ Descripción del candidato ideal ]
+
+Expert
+
+Expert Nombre: 
+Expert LastName 
+Expert Linkedin:
+Expert Email: 
+Expert Tephone 
+
+[Message Expert wrote to the Hero]
+
+[Message Expert wrote about how he can help]
+```
 
 ## Hero Flow: Post Challenge & Signup flow
 
@@ -199,20 +253,13 @@ Email to send to kaixo@experthero.eus
 
 email to receive as an admin [admin_hero_posted_a_challenge_email](copies_and_forms/admin_hero_posted_a_challenge_email.md)
 
-Email / password sign up. Sign up experience have to be super smooth and very nice mobil friendly. **UX has to be great. It is the priority.**
+UX has to be great. It is the priority.
 
 **By email Also double opt-in should be applied.** (Validate Email)
 
-Check third party tooling. At best all logic / email opt in / receive MK / etc should be outsourced.
+If the Hero uses different emails each time he will be handle as different user. 
 
-If the Hero uses different emails each time he will be handle as different user 
-
-if the Hero uses the same email we will tell him we allow to do so, overwritten the data. 
-
-We allow the Hero to log in, (if he did it) with his password to retrieve and autocomplete some of the fields
-
-If he does not remember the password we say in the form to contact kaixo@experthero.eus
-
+if the Hero uses the same email we will tell him we allow to do so, overwritten the user data. 
 ### Thank You Page
 
 similarly to the Expert, once the form has been filled up a new page / message / redirection will thank the entrepreneur for sending the challenge

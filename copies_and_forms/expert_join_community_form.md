@@ -1,4 +1,3 @@
-# expert_join_community_form
 
 Copy:
 
@@ -21,13 +20,9 @@ Form:
 [ Expertise ] Dropdown 
 [ Descripcion ] Input (optional)
 
+[ ] Quiero recibir información sobre otros temas, incluyendo eventos y noticias de interés. (optional)
 
-[x] Quiero formar parte de la comunidad (i) legal note
-[ Contraseña ] Input Password 
-
-[ ] Quiero recibir informacion de otro tipo, eventos e informaciones de interes
-
-(i) al formar parte de la comunidad reconoces que blah blah .. (legal things)
+[ ] He leído y acepto la Política de Privacidad y los Términos y Condiciones de este sitio web.
 
 | Enviar |
 ```

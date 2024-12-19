@@ -1,6 +1,4 @@
 
-# expert_join_challenge_email
-
 Subject: 
 
 ```
@@ -35,6 +33,7 @@ Este link es personal, si quieres compartirlo con otro experto pasale este <link
 // This text both in Spanish and Basque
 
 Estas recibiendo este email en el idioma en el que te diste de alta. Si quieres cambiar el idioma, envia un email a kaixo@experthero.eus
+
 Mezu elektroniko hau erregistratu zaren hizkuntzan jasotzen ari zara. Hizkuntza aldatu nahi baduzu, bidali mezu bat kaixo@experthero.eus helbidera
 
 ```

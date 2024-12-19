@@ -1,5 +1,5 @@
 ```
-Subject: "New Challenge Posted"
+Subject: "ExpertHero - New Challenge Posted"
 ```
 
 ```

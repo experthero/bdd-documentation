@@ -1,5 +1,4 @@
 
-# expert_join_challenge_form
 
 ```
 Hola <nombre del experto>
@@ -14,23 +13,21 @@ Escribe tu mensaje al Emprendedor
 
 [x] Confirmación *
 
-* Marca la casilla para confirmar que estas dispuesto a ofrecer al menos una hora de ayuda y asesoramiento gratuitos a este emprendedor.
+* Marca la casilla para confirmar que estás dispuesto a ofrecer al menos dos horas de ayuda y asesoramiento gratuitos a este emprendedor.
 
-Por supuesto, puede ofrecer mucho trabajo de forma gratuita si lo desea, o puedes ofrecer solo una hora y comunicarle al fundador tus honorarios por si desea contratarte más.
-
-<dynamic Join the community, see below>
-
-| Enviar |
+Por supuesto, puedes ofrecer mucho más soporte de forma gratuita si lo deseas, o ponerte en contacto con él para acordar otro tipo de colaboración.
 
 Estos son los datos que tenemos sobre ti: 
 
 Nombre: <Name Expert> (not changeable)
 LastName <lastName Expert> (not changeable)
-Linkedin: <Linkedin Expert> (not changeable)
+LinkedIn: <Linkedin Expert> (not changeable)
 
-Si no eres esta persona. Clicka <aqui> Para formar parte de la comunidad o envianos un email a soport@experthero.eus y mirarmos tu caso en particular.
+Si no eres esta persona. Clicka <aqui> Para formar parte de la comunidad o envianos un email a kaixo@experthero.eus y mirarmos tu caso en particular.
 
-Feedback a la organizacion. Siempre queremos mejorar por lo que si tienes algo que decirnos puedes escribirnos a support@experthero.eus
+| Enviar |
+
+Siempre queremos mejorar por lo que si tienes algo que decirnos puedes escribirnos a kaixo@experthero.eus
 ```
 
 We assume we know already the firstName, lastName and email  of the Expert. We also know if he has join the community or not. 

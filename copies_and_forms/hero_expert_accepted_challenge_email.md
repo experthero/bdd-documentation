@@ -11,11 +11,11 @@ Hola <nombre del Hero>
 
 Su Mensaje: 
 
-// message the expert wrote
+// message the expert wrote to the Hero
 
 Area en la que podria ayudar: 
 
-// text the expert wrote
+// text the expert wrote explaining how he could help
 
 Datos del Experto
 
@@ -23,7 +23,7 @@ Nombre: <Name Expert>
 LastName <lastName Expert> 
 Linkedin: <Linkedin Expert>
 Email: <Email Expert>
-Tephone <Telephone Expert>
+Tephone <Telephone Expert> (if available)
 
 Esperamos que la colaboracion sea fructifera!, si tienes algo que decirnos puedes escribirnos a support@experthero.eus
 

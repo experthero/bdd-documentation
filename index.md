@@ -111,7 +111,7 @@ Copy:
 
 All fields are mandatory except Telephone, also the password if checkbox `Quiero formar parte de la comunidad`
 
-there is a captcha or similar to avoid bots.
+there is a captcha or similar to avoid bots. It will be enabled but a env variable. Default value "inactive", if not present it will be also inactive
 
 Type of expert: (dropdown)
 
@@ -158,7 +158,7 @@ Expert will join a challenge by receiving an email and with a description of the
 
 [expert_join_challenge_email](copies_and_forms/expert_join_challenge_email.md)
 
-there is a captcha or similar to avoid bots
+there is a captcha or similar to avoid bots. It will be enabled but a env variable. Default value "inactive", if not present it will be also inactive
 
 This challenge email will be sent as part of a Marketing Campaign with a third party marketing tool.
 

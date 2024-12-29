@@ -339,8 +339,6 @@ Other considerations:
 - This CSV will be loaded in a MK Email tool with a template and sent as MK campaign.
 - There will be 2 CSV one for each language the email campaign have to be sent.
 - The query has to allow to filter for those experts that are active or not. 
-- Also it would be good to know if there is any email sent to this expert in regards the given Challenge.
-
 ## Expert Joins the Challenge
 
 Once the email bulk with the challenge have been done, the experts will receive the challenge and in that moment they will have a link to accept the challenge. As we have discussed above with [expert_join_challenge_form](copies_and_forms/expert_join_challenge_form.md)
@@ -359,15 +357,6 @@ Emails he receive are in the language the Hero post the challenge. It can be cha
 - Better 
 - Where to host it
 
-# Others
-
-## Non functional requirements. 
-
-### Email Logging
-
-Email sending should be properly logged in Database so given a challenge we can now which emails where send to a Hero and which Experts were included in this challenge: 
-
-Of course a global email sent log would be good if possible
 ## UX / UI
 
 Everything must be available in Euskadi two official languages: Basque and Spanish.
@@ -407,11 +396,19 @@ We need cookies support:
 https://www.npmjs.com/package/vanilla-cookieconsent
 https://www.termsfeed.com/
 
-# Future 
+# Backlog 
 
-Add AI Support
+## Add AI Support
 
 When Expert join the community add some info about himself and also a description and the Linked-in and so on, therefore when the challenge is set it is filtered based in AI decisions.
+
+Others
+
+### Email Logging / Automate Expert Sending of a Challenge
+
+Email sending should be properly logged in Database so given a challenge we can now which emails where send to a Hero and which Experts were included in this challenge: 
+
+Of course a global email sent log would be good if possible
 
 
 

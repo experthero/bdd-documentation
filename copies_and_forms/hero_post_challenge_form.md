@@ -13,7 +13,7 @@ Por favor, completa este formulario describiendo tu necesidad y nos pondremos en
 [ Compañia ] Input
 [ perfil de LinkedIn ] Input 
 [ Email ] Input
-[ Telephone ] Input (i) Si añades tu teléfono te podremos enviar la información de los expertos que te pueden ayudar directamente mediante sms o whatsapp. (No te preocupes te pediremos permiso nuevamente antes). (optional)
+[ Teléfono ] Input (i) Si añades tu teléfono te podremos enviar la información de los expertos que te pueden ayudar directamente mediante sms o whatsapp. (No te preocupes te pediremos permiso nuevamente antes). (optional)
 
 Cuéntanos sobre tu proyecto:
 
@@ -21,6 +21,8 @@ Cuéntanos sobre tu proyecto:
 [ Titulo del reto ] Input
 [ Descripción del reto ] Text Area
 [ Descripción del candidato ideal ] Text Area
+Tipo de candidato: (dropdown)
+	[Tecnologia, Estrategia, Marketing]
 
 [ ] Quiero recibir información sobre otros temas, incluyendo eventos y noticias de interés (optional)
 

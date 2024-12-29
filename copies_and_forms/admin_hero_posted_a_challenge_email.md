@@ -3,8 +3,23 @@ Subject: "ExpertHero - New Challenge Posted"
 ```
 
 ```
-Body: 
+Hero:
 
-The data from the hero_post_challenge_form
+[ Nombre] 
+[ Apellido/s]
+[ Compañia ]
+[ perfil de LinkedIn ] 
+[ Email ] 
+[ Telefono ] 
+
+Project: 
+
+[ Descripción del la empresa ]
+[ Titulo del reto ] 
+[ Descripción del reto ] 
+[ Descripción del candidato ]
+[ Tipo de candidato: (del dropdown)]
+
+
 
 ```

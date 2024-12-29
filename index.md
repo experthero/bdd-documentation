@@ -100,22 +100,14 @@ A tool for helping the Hero and the Expert to optimize taxes. (not part of this 
 - Hero Flow: Post Challenge and Sign Up Flow
 ## Expert  Flow
 
-### Expert Join Community Form / Sign Up
+### Expert Join Community Form
 
 With this form the expert will join the community and start to receive challenges.
-#### Join Form & Optional Sign Up 
-
-Copy:  
+#### Form 
 
 [**expert_join_community_form**](copies_and_forms/expert_join_community_form.md)
 
-All fields are mandatory except Telephone, also the password if checkbox `Quiero formar parte de la comunidad`
-
-there is a captcha or similar to avoid bots. It will be enabled but a env variable. Default value "inactive", if not present it will be also inactive
-
-Type of expert: (dropdown)
-
-Technology, strategy, marketing
+There is a captcha or similar to avoid bots. It will be enabled but a env variable. Default value "inactive", if not present it will be also inactive
 
 Email / password sign up. Sign up experience have to be super smooth and very nice mobil friendly. **UX has to be great. It is the priority.**
 
@@ -123,23 +115,40 @@ Email / password sign up. Sign up experience have to be super smooth and very ni
 
 Emails have to be sent in Basque or Spanish depending the Language user filled the form.
 
-Check third party tooling. At best all logic / email opt in / receive MK / etc should be outsourced. (Think in Options!)
-
 If the Expert uses different emails each time he will be handle as different user. 
 
 if the Expert uses the same email we tell him that he already exist in our database and se invite him to contact kaixo@experthero.eus 
 
 We invite him to login in to retrieve his personal data and again if he does not remember the password he can send an email to kaixo@experthero.eus
 
+#### Validate Email
+
+```
+Subject: Valida tu dirección de correo electrónico
+Body: 
+
+¡Bienvenido a Nuestra Comunidad de Expertos!
+
+Hola {{Username}},
+
+Gracias por unirte a nuestra comunidad de expertos. Estamos encantados de tenerte con nosotros. Para comenzar, por favor confirma tu correo electrónico haciendo clic en el botón de abajo.
+
+[ CTA Button "Confirmar Correo"]
+
+Si ya has validado este email, por favor ignora este mensaje o contacta con el soporte si tienes alguna pregunta.
+
+<small> Recibiste este mensaje porque te uniste a nuestra comunidad mediante nuestro sitio web. Si no fuiste tú, por favor [contacta con el soporte (kaixo@experthero.eus)](mailto:kaixo@experthero.eus).  
+
+© 2024 ExpertHero. Todos los derechos reservados.
+
+```
+
+(*) Please use as Guidelines the Template Design in Transcational Platform
 #### Thank You Page
 
 Once the expert has join the community he will be redirected a page / showing a message where we again tell him that we are happy to have in the community
 
-[expert_thankyou_page](copies_and_forms/copies_and_forms/expert_thankyou_page.md)
-
-#### Verify Email
-
-The expert will receive an email for validating the email. Once he clicks he will be redirected to a page that thanks him do doing it
+The expert will receive an email for validating the email. Once he clicks he will be redirected to a page that thanks him do doing it.
 
 ```bash
 ¡Tu correo electrónico ha sido verificado con éxito! 🎉
@@ -151,8 +160,6 @@ Tan pronto como haya un reto que se adapte a tus necesidades nos pondremos en co
 ```
 
 ### Expert Join a Challenge
-
-#### first iteration
 
 Expert will join a challenge by receiving an email and with a description of the challenge
 
@@ -176,7 +183,29 @@ IMPORTANT: Once the Expert Join a Challenge, 2 emails will be sent:
 
 - One email to the Hero sending him the info of the expert
 - One email to the ADMIN, letting him know an expert is willing to help
-##### thank you page
+
+#### Email Validate
+
+```
+Subject: Valida tu dirección de correo electrónico
+Body: 
+
+¡Muchas gracias por publicar un Reto en nuestra comunidad de expertos!
+
+Hola {{Username}},
+
+muchas gracias por publicar un Reto en nuestra comunidad de expertos. Estamos encantados de tenerte con nosotros. Para comenzar, por favor confirma tu correo electrónico haciendo clic en el botón de abajo.
+
+[ CTA Button "Confirmar Correo"]
+
+Si ya has validado este email, por favor ignora el mensaje o contacta con el soporte si tienes alguna pregunta.
+
+<small> Recibiste este mensaje porque has publicado un reto en nuestro sitio web. Si no fuiste tú, por favor [contacta con el soporte (kaixo@experthero.eus)](mailto:kaixo@experthero.eus).  
+
+© 2024 ExpertHero. Todos los derechos reservados.
+```
+
+#### Thank you Page
 
 Once Form is completed a `thankyou` page will be shown with the following text: 
 
@@ -190,11 +219,17 @@ Un saludo del equipo de Expert Hero
 Para cualquier cosa no dudes en ponerte en contacto con nosotros en kaixo@experthero.eus
 ```
 
+#### Email to Experts (Manual)
 
-##### Email to Expert
+As discussed when a new challenge is posted an Email is triggered to the Experts. This process is manual.
 
 [hero_expert_accepted_challenge_email](copies_and_forms/hero_expert_accepted_challenge_email.md)
-##### Email to Admin
+
+Through a query the Admin will retrieve all the experts that  have that will be sent the challenge. 
+
+See [Challenge Export](Challenge%20Export)
+
+#### Email to Admin
 
 As stated above the admin will also receive an email to let him know there is a match
 
@@ -242,10 +277,6 @@ with the following fields
 
 > take in account that the Hero can post more than one Challenge and we should somehow don't duplicate the "sign ups" we do (Email is the primary) key.
 
-Type of challenge: (dropdown)
-
-Technology, strategy, marketing
-
 
 When a Challenge is posted the "ADMIN" (me) should get an email informing a new challenge have been posted. 
 
@@ -262,7 +293,7 @@ If the Hero uses different emails each time he will be handle as different user.
 if the Hero uses the same email we will tell him we allow to do so, overwritten the user data. 
 ### Thank You Page
 
-similarly to the Expert, once the form has been filled up a new page / message / redirection will thank the entrepreneur for sending the challenge
+Similarly to the Expert, once the form has been filled up a new page / message / redirection will thank the entrepreneur for sending the challenge
 
 [hero_thankyou_page](copies_and_forms/hero_thankyou_page)
 
@@ -288,7 +319,7 @@ The app having access to challenges / experts / applications etc.. will be discu
 
 Each time a challenge is posted an email to all experts have to be sent. 
 
-By now it will be done manually by exporting the data from the DataBase (via SQL or API call)
+By now it will be done **manually** by exporting the data from the DataBase (via SQL)
 
 Given a challenge for each expert willing to join the challenge I'g get a row with the following columns (we can talk about the naming):
 
@@ -303,9 +334,12 @@ challenge_expert_description
 challenge_cta
 ```
 
-This CSV will be loaded in a MK Email tool with a template and sent as MK campaign.
+Other considerations: 
 
-There will be 2 CSV one for each language the email campaign have to be sent
+- This CSV will be loaded in a MK Email tool with a template and sent as MK campaign.
+- There will be 2 CSV one for each language the email campaign have to be sent.
+- The query has to allow to filter for those experts that are active or not. 
+- Also it would be good to know if there is any email sent to this expert in regards the given Challenge.
 
 ## Expert Joins the Challenge
 
@@ -324,7 +358,17 @@ Emails he receive are in the language the Hero post the challenge. It can be cha
 - Shop technology
 - Better 
 - Where to host it
-# UX / UI
+
+# Others
+
+## Non functional requirements. 
+
+### Email Logging
+
+Email sending should be properly logged in Database so given a challenge we can now which emails where send to a Hero and which Experts were included in this challenge: 
+
+Of course a global email sent log would be good if possible
+## UX / UI
 
 Everything must be available in Euskadi two official languages: Basque and Spanish.
 
@@ -350,7 +394,7 @@ pending to select a Template
 - Zoho ZeptoEmail for transactional email
 - Google Analytics for tracking. 
 
-# Tech & More requirements
+## Tech & More requirements
 
 ## Tech stack
 
@@ -363,25 +407,14 @@ We need cookies support:
 https://www.npmjs.com/package/vanilla-cookieconsent
 https://www.termsfeed.com/
 
-# Future (add AI support)
+# Future 
+
+Add AI Support
 
 When Expert join the community add some info about himself and also a description and the Linked-in and so on, therefore when the challenge is set it is filtered based in AI decisions.
 
-# Questions open to Dev
 
-- I'd like that experthero.es and others redirect to experthero.eus transparently. Possible?
 
-## Tasks
 
-- Hero - Post a Challenge Form (as part of the App)
-- Expert - Join Community Form (as part of the App)
-- Expert - Join Challenge Form (as part of the App)
-- Landing Page (if it is included in the App) - Vicens
-- Zoho Campaigns exports (Challenge & related Experts) 
-- Zoho Campaign config - Vicens
-- Transactional Email API connections & Templates (Vicens & Andreu)
-- eCommerce Shop  - Wordpress x Woocommerce
-- Design (Euskera!) 
-- Two languages (Spanish / Euskera)
 
 
